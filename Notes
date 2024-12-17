@@ -1,0 +1,12 @@
+Git diff compares staging area and working directory
+git diff -- staged compares previous commit with new staged area 
+Notes of git 
+git log --stat = give very short summary of all commit
+git log --pretty=oneline = give commit information in one line
+git log --pretty=short = give commit information in short
+git log --pretty=full = same as short but also give author and commitor name
+git log --since=2.weeks = give all changes in file since 2 weeks
+git log --since=2.days = same as above but since 2 days
+git log --since=2.months =  same as above but since 2 months
+git log --pretty=format:"%h -- %an" = /an = author name/, /h = commit hash/
+
